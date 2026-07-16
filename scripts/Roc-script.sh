@@ -116,4 +116,4 @@ echo "baidu.com"  > package/luci-app-passwall/luci-app-passwall/root/usr/share/p
 
 ./scripts/feeds update -i -a
 ./scripts/feeds install -a
-Aria2
+# Aria2
