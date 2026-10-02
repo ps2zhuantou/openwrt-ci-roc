@@ -310,6 +310,10 @@ if package_enabled luci-app-athena-led luci-i18n-athena-led-zh-cn; then
   chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app-athena-led/root/usr/sbin/athena-led
 fi
 
+git clone --depth=1 https://github.com/EasyTier/luci-app-easytier.git package/luci-app-easytier
+git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki.git package/luci-app-nikki
+git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-momo.git package/luci-app-momo
+
 ### PassWall & OpenClash ###
 
 if package_enabled luci-app-passwall luci-app-passwall2; then
